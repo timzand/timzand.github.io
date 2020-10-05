@@ -1,0 +1,118 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* -----------------------------------------------------*/
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Oswald', sans-serif;
+    background: rgb(255,255,255);
+    background: -moz-radial-gradient(circle, rgba(255,255,255,1) 68%, rgba(72,231,143,0.8130602582830007) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 68%, rgba(72,231,143,0.8130602582830007) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 68%, rgba(72,231,143,0.8130602582830007) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#48e78f",GradientType=1);
+    background-repeat: no-repeat;
+}
+#container_ship {
+    
+    background-image: url(Viridilogistics_Ship.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 70vw;
+    height: 18vh;
+    margin-top: 24vh;
+}
+
+header {
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    padding: 0;
+    margin: 0;
+    line-height: 0.9;
+    font-size: 48px;
+}
+
+h3 {
+    line-height: 1.8;
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+footer {
+    margin-top: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+}
