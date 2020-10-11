@@ -88,7 +88,6 @@ body {
 #container_footer_gradient {
     width: 100vw;
     height: 50.5vh;
-    background-color:black;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
