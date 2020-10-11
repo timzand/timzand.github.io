@@ -92,12 +92,13 @@ body {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-
+/*
     background: rgb(255,255,255);
     background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(156,234,178,0.9671218829328606) 62%, rgba(9,203,64,0.8970938717283788) 100%);
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(156,234,178,0.9671218829328606) 62%, rgba(9,203,64,0.8970938717283788) 100%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(156,234,178,0.9671218829328606) 62%, rgba(9,203,64,0.8970938717283788) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#09cb40",GradientType=1);
+*/
 }
 #container_ship {
     
