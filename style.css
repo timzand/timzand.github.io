@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------- */
+
+body {
+    height: 100%;
+    background-color: #a3c2b3;
+    background-image: url(ship_green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#triangle-top-right-first {
+    width: 0;
+    height: 0;
+    color: black;
+    border-top: 18vh solid #00b050;
+    border-left: 60vw solid transparent;
+}
+
+#triangle-top-right-second {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0.5;
+    border-top: 28vh solid 	#b3ecce;
+    border-left: 18vw solid transparent;
+
+}
+
+main {
+    width: 100vw;
+    height: 64vh;
+}
+
+#container-headers {
+    margin-left: 5vw;
+}
+
+h3 {
+    font-size: 1.5vw;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 0.2vw;
+    margin-top: 1vh;
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    width: 100vw;
+    height:24vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#triangle-bottom-left {
+    width: 0;
+    height: 0;
+    color: black;
+    border-bottom: 16vh solid #00b050;
+    border-right: 60vw solid transparent;
+}
+
+#triangle-bottom-right {
+    position:absolute;
+    width: 0;
+    height: 0;
+    opacity: 0.5;
+    margin-left: 40vw;
+    border-bottom: 24vh solid #b3ecce;
+    border-left: 60vw solid transparent;
+}
