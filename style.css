@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------------------- */
+
+body {
+    height: 100%;
+    background-color: #a3c2b3;
+    background-image: url(ship_green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#triangle-top-right-first {
+    width: 0;
+    height: 0;
+    color: black;
+    border-top: 18vh solid #00b050;
+    border-left: 60vw solid transparent;
+}
+
+#triangle-top-right-second {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0.7;
+    border-top: 28vh solid 	#b3ecce;
+    border-left: 18vw solid transparent;
+
+}
+
+main {
+    width: 100vw;
+    height: 64vh;
+}
+
+#container-headers {
+    margin-left: 5vw;
+}
+
+h1 {
+    font-size: 3vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-size: 1.5vw;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 0.2vw;
+    margin-top: 0vh;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#text_inquiries {
+    padding-top: 2vh;
+    padding-left: 0.2vw;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#text_contact {
+    font-size: 1vw;
+    padding-left: 2vw;
+    padding-top: 3vh;
+    font-family: 'Ubuntu', sans-serif;
+    /*
+    padding-top: 2vh;
+    padding-left: 7.4vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    */
+}
+
+#contactinfo_tab {
+    padding-left: 0vw;
+    padding-bottom: 3vh;
+    line-height: 1.5vw;
+    /*
+    margin-top: -3vh;  
+    padding-left: 6vw;
+    */
+}
+
+
+
+footer {
+    width: 100vw;
+    height:24vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#triangle-bottom-left {
+    width: 0;
+    height: 0;
+    color: black;
+    border-bottom: 16vh solid #00b050;
+    border-right: 60vw solid transparent;
+}
+
+#triangle-bottom-right {
+    position:absolute;
+    width: 0;
+    height: 0;
+    opacity: 0.7;
+    margin-left: 40vw;
+    border-bottom: 24vh solid #b3ecce;
+    border-left: 60vw solid transparent;
+}
+
+#myBtn {
+    margin-top: 3em;
+    text-decoration: none;
+    border-radius: 0.10em;
+    width: 10em;
+    height: 3em;
+    font-size: 1em;
+    font-family: "oswald";
+    border: 0.1em solid black;
+    background-color: #00b050;
+    transition: all 0.15s;
+}
+
+#myBtn:hover {
+    background-color: #b3ecce;
+    border: 0.1em solid gray;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 35%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
